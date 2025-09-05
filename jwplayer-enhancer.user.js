@@ -67,7 +67,7 @@
         document.addEventListener("visibilitychange", function() {
           setTimeout(function() {
             Visibility();
-          }, 1000);
+          }, 500);
           if (document.hidden) {
             Player.pause();
           }
@@ -172,5 +172,5 @@
         }
       });
     }
-  }, 1500);
+  }, 500);
 })();
