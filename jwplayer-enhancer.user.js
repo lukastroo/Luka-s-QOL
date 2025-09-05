@@ -1,18 +1,40 @@
+
+
 // ==UserScript==
-// @name         JWPlayer Enhancer
-// @namespace    https://greasyfork.org/en/users/670188-hacker09?sort=daily_installs
-// @version      3
-// @description  Improves binge watch experiences on any JWPlayer videos online.
-// @author       hacker09
+
+
+// @name         JWPlayer tweaks
+
+
+// @version      1.1
+
+
+// @description  Improve JWPlayer stuff like time seek and auto fullscreen.
+
+
+// @author       Lukluk
+
+
+// @namespace    https://github.com/lukastroo
+
 // @include      *
-// @icon         https://www.jwplayer.com/hubfs/JW_Player_August2021/Images/favicon-152.png
+
+
 // @run-at       document-end
+
 // @grant        unsafeWindow
+
 // @grant        GM_registerMenuCommand
+
 // @grant        GM_getValue
+
 // @grant        GM_setValue
-// @downloadURL https://update.greasyfork.org/scripts/434709/JWPlayer%20Enhancer.user.js
-// @updateURL https://update.greasyfork.org/scripts/434709/JWPlayer%20Enhancer.meta.js
+
+
+// @downloadURL  https://raw.githubusercontent.com/lukastroo/Luka-s-QOL/main/jwplayer-enhancer.user.js
+
+
+// @updateURL    https://raw.githubusercontent.com/lukastroo/Luka-s-QOL/main/jwplayer-enhancer.user.js
 // ==/UserScript==
 (function() {
   'use strict';
