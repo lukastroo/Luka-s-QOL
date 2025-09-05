@@ -1,39 +1,18 @@
 
 
 // ==UserScript==
-
-
 // @name         JWPlayer tweaks
-
-
-// @version      1.1
-
-
-// @description  Improve JWPlayer stuff like time seek and auto fullscreen.
-
-
+// @version      1.2
+// @description  Improve JWPlayer seek, auto fullscreen, right-click skip, and fullscreen UI hide toggle.
 // @author       Lukluk
-
-
 // @namespace    https://github.com/lukastroo
-
 // @include      *
-
-
 // @run-at       document-end
-
 // @grant        unsafeWindow
-
 // @grant        GM_registerMenuCommand
-
 // @grant        GM_getValue
-
 // @grant        GM_setValue
-
-
 // @downloadURL  https://raw.githubusercontent.com/lukastroo/Luka-s-QOL/main/jwplayer-enhancer.user.js
-
-
 // @updateURL    https://raw.githubusercontent.com/lukastroo/Luka-s-QOL/main/jwplayer-enhancer.user.js
 // ==/UserScript==
 (function() {
